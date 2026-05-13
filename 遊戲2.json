@@ -1,0 +1,1784 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 269,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "d804d08e-9829-42ac-9b39-8ecbaefaf9e3",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "遊戲2",
+    "description": "",
+    "author": "",
+    "windowWidth": 1917,
+    "windowHeight": 1083,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "螢幕擷取畫面 2026-05-12 185946.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "螢幕擷取畫面 2026-05-12 185946.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "黃色星星.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "黃色星星.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "綠色圓形.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "綠色圓形.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "紅色圓形.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "紅色圓形.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "藍色圓形.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "藍色圓形.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "綠色三角形.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "綠色三角形.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "紅色愛心.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "紅色愛心.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "黃色圓形.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "黃色圓形.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "黃色星星2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "黃色星星2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "綠色圓形2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "綠色圓形2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "紅色圓形2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "紅色圓形2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "藍色圓形2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "藍色圓形2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "綠色三角形2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "綠色三角形2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "紅色愛心2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "紅色愛心2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "黃色圓形2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "黃色圓形2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "紅色愛心3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "紅色愛心3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "C:/Users/pyes9/Downloads/罐1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:/Users/pyes9/Downloads/罐1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "罐16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "罐16.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_26410_21629_21517_22580_26223",
+      "name": "未命名場景",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.49138775453294087,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "Step",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1083,
+          "keepRatio": true,
+          "layer": "",
+          "name": "背景",
+          "persistentUuid": "0fddb61d-2d58-43f6-b56f-8477caedd949",
+          "width": 1917,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 35,
+          "customSize": true,
+          "depth": 1,
+          "height": 230,
+          "keepRatio": true,
+          "layer": "",
+          "name": "黃色星星",
+          "persistentUuid": "87a930b4-f712-4242-a36c-f208853a09ec",
+          "width": 288,
+          "x": 1153,
+          "y": 793,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 165,
+          "keepRatio": true,
+          "layer": "",
+          "name": "紅色圓形",
+          "persistentUuid": "b7da6bd5-8656-4b40-b10b-77ffb90e9310",
+          "width": 267,
+          "x": 1422,
+          "y": 840,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "綠色圓形",
+          "persistentUuid": "d906a0f0-91e0-4bd4-ab2d-5ad707e34ee7",
+          "width": 230,
+          "x": 371,
+          "y": 779,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 344,
+          "customSize": true,
+          "depth": 1,
+          "height": 173,
+          "keepRatio": true,
+          "layer": "",
+          "name": "藍色圓形",
+          "persistentUuid": "96de822c-b88d-4546-992c-583b2a467fe1",
+          "width": 245,
+          "x": 755,
+          "y": 835,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 2,
+          "customSize": true,
+          "depth": 1,
+          "height": 201,
+          "keepRatio": true,
+          "layer": "",
+          "name": "綠色三角形",
+          "persistentUuid": "a0be116a-9265-4bdd-b9f5-c4bdef0b89e5",
+          "width": 231,
+          "x": 963,
+          "y": 812,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 9,
+          "keepRatio": true,
+          "layer": "",
+          "name": "感應1",
+          "persistentUuid": "b7d23701-0f40-4780-8946-84caea5ecc84",
+          "width": 121,
+          "x": 535,
+          "y": 374,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 229,
+          "keepRatio": true,
+          "layer": "",
+          "name": "罐子",
+          "persistentUuid": "8889d306-25a3-49fa-acab-b10088eaea3f",
+          "width": 276,
+          "x": 453,
+          "y": 544,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 330,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "黃色圓形",
+          "persistentUuid": "686b6418-63ac-4f46-9afd-bb2f401978e2",
+          "width": 236,
+          "x": 580,
+          "y": 807,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 332,
+          "customSize": true,
+          "depth": 0,
+          "height": 185,
+          "layer": "",
+          "name": "紅色愛心",
+          "persistentUuid": "5019cc84-d00a-4fba-93c3-b56f9198e710",
+          "width": 228,
+          "x": 185,
+          "y": 832,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "背景",
+          "persistentUuid": "a4c2a6c0-04c6-4f04-803e-47d901066b93",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "螢幕擷取畫面 2026-05-12 185946.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1047,
+                            "y": 0
+                          },
+                          {
+                            "x": 1047,
+                            "y": 592
+                          },
+                          {
+                            "x": 0,
+                            "y": 592
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "黃色星星",
+          "persistentUuid": "d3a5b09d-8da9-43ca-a0c8-3d8262dc9046",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "黃色星星",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "黃色星星2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 13
+                          },
+                          {
+                            "x": 534,
+                            "y": 13
+                          },
+                          {
+                            "x": 534,
+                            "y": 427
+                          },
+                          {
+                            "x": 31,
+                            "y": 427
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "綠色圓形",
+          "persistentUuid": "21c81ab3-9b7e-459c-9ec8-069343573366",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "綠色圓形2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 15
+                          },
+                          {
+                            "x": 387,
+                            "y": 15
+                          },
+                          {
+                            "x": 387,
+                            "y": 373
+                          },
+                          {
+                            "x": 21,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "紅色圓形",
+          "persistentUuid": "cebf7237-7b96-4f8f-933c-d95dd399c24f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "紅色圓形",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "紅色圓形2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33,
+                            "y": 16
+                          },
+                          {
+                            "x": 533,
+                            "y": 16
+                          },
+                          {
+                            "x": 533,
+                            "y": 339
+                          },
+                          {
+                            "x": 33,
+                            "y": 339
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "藍色圓形",
+          "persistentUuid": "ed3bfeef-b1e0-406a-9b32-bb75e3ae5654",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "藍色圓形",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "藍色圓形2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 22
+                          },
+                          {
+                            "x": 503,
+                            "y": 22
+                          },
+                          {
+                            "x": 503,
+                            "y": 345
+                          },
+                          {
+                            "x": 40,
+                            "y": 345
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "綠色三角形",
+          "persistentUuid": "d7ca66b0-406c-405d-a92e-01167daa41d7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "綠色三角形",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "綠色三角形2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 25
+                          },
+                          {
+                            "x": 411,
+                            "y": 25
+                          },
+                          {
+                            "x": 411,
+                            "y": 363
+                          },
+                          {
+                            "x": 55,
+                            "y": 363
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "紅色愛心",
+          "persistentUuid": "3cefc478-5160-4fce-ade1-115168e74ef3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "紅色愛心",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "紅色愛心2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 39
+                          },
+                          {
+                            "x": 424,
+                            "y": 39
+                          },
+                          {
+                            "x": 424,
+                            "y": 353
+                          },
+                          {
+                            "x": 41,
+                            "y": 353
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "黃色圓形",
+          "persistentUuid": "e6d6d69a-9991-47a6-8297-a5a960b7860a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "可拖動",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "黃色圓形",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "黃色圓形2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 58,
+                            "y": 48
+                          },
+                          {
+                            "x": 418,
+                            "y": 48
+                          },
+                          {
+                            "x": 418,
+                            "y": 357
+                          },
+                          {
+                            "x": 58,
+                            "y": 357
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "感應1",
+          "persistentUuid": "0a7e3018-7ab2-4016-a36f-56ad29fbd5b5",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "罐子",
+          "persistentUuid": "68d214c4-c79d-461c-a5b8-c5e110caba7d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "罐1-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "罐11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 408
+                          },
+                          {
+                            "x": 16,
+                            "y": 408
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "罐1-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "罐14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 408
+                          },
+                          {
+                            "x": 16,
+                            "y": 408
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "罐1-2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "罐15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 408
+                          },
+                          {
+                            "x": 16,
+                            "y": 408
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "罐1-3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "罐16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 13
+                          },
+                          {
+                            "x": 483,
+                            "y": 408
+                          },
+                          {
+                            "x": 16,
+                            "y": 408
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "背景"
+          },
+          {
+            "objectName": "罐子"
+          },
+          {
+            "objectName": "紅色愛心"
+          },
+          {
+            "objectName": "綠色圓形"
+          },
+          {
+            "objectName": "黃色圓形"
+          },
+          {
+            "objectName": "藍色圓形"
+          },
+          {
+            "objectName": "綠色三角形"
+          },
+          {
+            "objectName": "黃色星星"
+          },
+          {
+            "objectName": "紅色圓形"
+          },
+          {
+            "objectName": "感應1"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "感應1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Step",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "紅色愛心",
+                "可拖動"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "紅色愛心",
+                "185",
+                "832",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "紅色愛心",
+                "Resizable",
+                "228",
+                "185"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "紅色愛心",
+                "=",
+                "332"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "紅色愛心",
+                "可拖動"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "紅色愛心",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "紅色愛心",
+                "感應1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "紅色愛心",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "黃色圓形",
+                "可拖動"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "黃色圓形",
+                "580",
+                "807",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "黃色圓形",
+                "Resizable",
+                "236",
+                "201"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "黃色圓形",
+                "=",
+                "330"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "黃色圓形",
+                "可拖動"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "黃色圓形",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "黃色圓形",
+                "感應1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Step",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "黃色圓形",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "罐子",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Step",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "綠色圓形",
+                "可拖動"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "綠色圓形",
+                "371",
+                "779",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "綠色圓形",
+                "Resizable",
+                "230",
+                "222"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "綠色圓形",
+                "可拖動"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "綠色圓形",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "綠色圓形",
+                "感應1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}

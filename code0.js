@@ -69,7 +69,7 @@ for (var i = 0, k = 0, l = gdjs._26410_21629_21517_22580_26223Code.GD_9532005_95
 gdjs._26410_21629_21517_22580_26223Code.GD_9532005_9533394_9524859_9524515Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9429484);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9495388);
 }
 }
 if (isConditionTrue_0) {
@@ -149,7 +149,7 @@ for (var i = 0, k = 0, l = gdjs._26410_21629_21517_22580_26223Code.GD_9540643_95
 gdjs._26410_21629_21517_22580_26223Code.GD_9540643_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9058860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9497892);
 }
 }
 if (isConditionTrue_0) {
@@ -241,7 +241,7 @@ for (var i = 0, k = 0, l = gdjs._26410_21629_21517_22580_26223Code.GD_9532160_95
 gdjs._26410_21629_21517_22580_26223Code.GD_9532160_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9038572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9501252);
 }
 }
 if (isConditionTrue_0) {
