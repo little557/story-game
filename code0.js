@@ -95,7 +95,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"綠色圓形": gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback10695820 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10695708 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("打勾3"), gdjs.goCode.GD_9525171_95212463Objects2);
 gdjs.copyArray(runtimeScene.getObjects("罐3_完成"), gdjs.goCode.GD_95325923_9595_9523436_9525104Objects2);
@@ -109,7 +109,7 @@ gdjs.copyArray(runtimeScene.getObjects("罐3_完成"), gdjs.goCode.GD_95325923_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10695820, gdjs.goCode.asyncCallback10695820);
+gdjs.goCode.idToCallbackMap.set(10695708, gdjs.goCode.asyncCallback10695708);
 gdjs.goCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -119,7 +119,7 @@ gdjs.goCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10695820(runtimeScene, asyncObjectsList)), 10695820, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10695708(runtimeScene, asyncObjectsList)), 10695708, asyncObjectsList);
 }
 }
 
@@ -133,7 +133,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"藍色圓形": gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback10701740 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10701628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("打勾2"), gdjs.goCode.GD_9525171_95212462Objects2);
 gdjs.copyArray(runtimeScene.getObjects("罐2_完成"), gdjs.goCode.GD_95325922_9595_9523436_9525104Objects2);
@@ -147,7 +147,7 @@ gdjs.copyArray(runtimeScene.getObjects("罐2_完成"), gdjs.goCode.GD_95325922_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10701740, gdjs.goCode.asyncCallback10701740);
+gdjs.goCode.idToCallbackMap.set(10701628, gdjs.goCode.asyncCallback10701628);
 gdjs.goCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -157,7 +157,7 @@ gdjs.goCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10701740(runtimeScene, asyncObjectsList)), 10701740, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10701628(runtimeScene, asyncObjectsList)), 10701628, asyncObjectsList);
 }
 }
 
@@ -191,7 +191,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Object
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback10719044 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10718932 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("打勾"), gdjs.goCode.GD_9525171_9521246Objects2);
 gdjs.copyArray(runtimeScene.getObjects("罐1_完成"), gdjs.goCode.GD_95325921_9595_9523436_9525104Objects2);
@@ -205,7 +205,7 @@ gdjs.copyArray(runtimeScene.getObjects("罐1_完成"), gdjs.goCode.GD_95325921_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10719044, gdjs.goCode.asyncCallback10719044);
+gdjs.goCode.idToCallbackMap.set(10718932, gdjs.goCode.asyncCallback10718932);
 gdjs.goCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -215,7 +215,7 @@ gdjs.goCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10719044(runtimeScene, asyncObjectsList)), 10719044, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10718932(runtimeScene, asyncObjectsList)), 10718932, asyncObjectsList);
 }
 }
 
@@ -228,7 +228,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback10722772 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10722660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("結果背景"), gdjs.goCode.GD_9532080_9526524_9532972_9526223Objects2);
 {for(var i = 0, len = gdjs.goCode.GD_9532080_9526524_9532972_9526223Objects2.length ;i < len;++i) {
@@ -237,7 +237,7 @@ gdjs.copyArray(runtimeScene.getObjects("結果背景"), gdjs.goCode.GD_9532080_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10722772, gdjs.goCode.asyncCallback10722772);
+gdjs.goCode.idToCallbackMap.set(10722660, gdjs.goCode.asyncCallback10722660);
 gdjs.goCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -247,7 +247,7 @@ gdjs.goCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.goCode.asyncCallback10722772(runtimeScene, asyncObjectsList)), 10722772, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.goCode.asyncCallback10722660(runtimeScene, asyncObjectsList)), 10722660, asyncObjectsList);
 }
 }
 
@@ -404,7 +404,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects
 gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10680220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10680108);
 }
 }
 if (isConditionTrue_0) {
@@ -578,7 +578,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects
 gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10686124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10686012);
 }
 }
 if (isConditionTrue_0) {
@@ -730,7 +730,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects
 gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10691380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10691268);
 }
 }
 if (isConditionTrue_0) {
@@ -898,7 +898,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects
 gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10697460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10697348);
 }
 }
 if (isConditionTrue_0) {
