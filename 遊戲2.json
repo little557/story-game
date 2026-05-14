@@ -573,6 +573,16 @@
         "name": "打勾.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "答對效果音.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "答對效果音.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -4070,10 +4080,22 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "答對效果音.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.3"
               ]
             },
             {
@@ -4351,10 +4373,22 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "答對效果音.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.3"
               ]
             },
             {
@@ -5056,10 +5090,22 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "答對效果音.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.3"
               ]
             },
             {

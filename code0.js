@@ -119,7 +119,7 @@ gdjs.goCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10695708(runtimeScene, asyncObjectsList)), 10695708, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback10695708(runtimeScene, asyncObjectsList)), 10695708, asyncObjectsList);
 }
 }
 
@@ -157,7 +157,7 @@ gdjs.goCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10701628(runtimeScene, asyncObjectsList)), 10701628, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback10701628(runtimeScene, asyncObjectsList)), 10701628, asyncObjectsList);
 }
 }
 
@@ -215,7 +215,7 @@ gdjs.goCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.goCode.asyncCallback10718932(runtimeScene, asyncObjectsList)), 10718932, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback10718932(runtimeScene, asyncObjectsList)), 10718932, asyncObjectsList);
 }
 }
 
@@ -844,6 +844,8 @@ gdjs.copyArray(runtimeScene.getObjects("罐3_3"), gdjs.goCode.GD_95325923_95953O
     gdjs.goCode.GD_95325923_95952Objects1[i].deleteFromScene(runtimeScene);
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "答對效果音.aac", false, 100, 1);
+}
 
 { //Subevents
 gdjs.goCode.eventsList0(runtimeScene);} //End of subevents
@@ -1027,6 +1029,8 @@ gdjs.copyArray(runtimeScene.getObjects("罐2_2"), gdjs.goCode.GD_95325922_95952O
 {for(var i = 0, len = gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1.length ;i < len;++i) {
     gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1[i].deleteFromScene(runtimeScene);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "答對效果音.aac", false, 100, 1);
 }
 
 { //Subevents
@@ -1517,6 +1521,8 @@ gdjs.copyArray(runtimeScene.getObjects("罐1_3"), gdjs.goCode.GD_95325921_95953O
 {for(var i = 0, len = gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1.length ;i < len;++i) {
     gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1[i].deleteFromScene(runtimeScene);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "答對效果音.aac", false, 100, 1);
 }
 
 { //Subevents
