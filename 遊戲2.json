@@ -751,6 +751,14 @@
         "name": "螢幕擷取畫面_2026-06-12_111530-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "螢幕擷取畫面_2026-06-12_145117-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "螢幕擷取畫面_2026-06-12_145117-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1280,6 +1288,23 @@
           "x": 1254,
           "y": 393,
           "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 329,
+          "keepRatio": true,
+          "layer": "",
+          "name": "錯誤提示",
+          "persistentUuid": "937eae41-9357-4fee-8d32-e167d92b58b9",
+          "width": 847,
+          "x": 513,
+          "y": 42,
+          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3028,6 +3053,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "錯誤提示",
+          "persistentUuid": "7c7d4cc5-1cdf-4859-91bf-40b1d8a34d60",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "螢幕擷取畫面_2026-06-12_145117-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 127,
+                            "y": 60
+                          },
+                          {
+                            "x": 566,
+                            "y": 60
+                          },
+                          {
+                            "x": 566,
+                            "y": 212
+                          },
+                          {
+                            "x": 127,
+                            "y": 212
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3122,6 +3208,9 @@
           },
           {
             "objectName": "文字"
+          },
+          {
+            "objectName": "錯誤提示"
           }
         ]
       },
@@ -3291,6 +3380,14 @@
               },
               "parameters": [
                 "打勾3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -3521,6 +3618,31 @@
                 "紅色愛心",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -3548,6 +3670,31 @@
               "parameters": [
                 "紅色愛心",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -3587,6 +3734,31 @@
               "parameters": [
                 "紅色愛心",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -3744,6 +3916,31 @@
                 "黃色圓形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -3772,6 +3969,31 @@
                 "黃色圓形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -3799,6 +4021,31 @@
               "parameters": [
                 "黃色圓形",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -3908,6 +4155,31 @@
                 "綠色圓形",
                 "綠色圓形"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -3935,6 +4207,31 @@
               "parameters": [
                 "綠色圓形",
                 "綠色圓形"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -4060,6 +4357,31 @@
               "parameters": [
                 "綠色圓形",
                 "綠色圓形"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -4336,6 +4658,31 @@
                 "藍色圓形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -4375,6 +4722,31 @@
                 "藍色圓形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -4402,6 +4774,31 @@
               "parameters": [
                 "藍色圓形",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -4505,6 +4902,31 @@
                 "綠色三角形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -4533,6 +4955,31 @@
                 "綠色三角形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -4560,6 +5007,31 @@
               "parameters": [
                 "綠色三角形",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -4663,6 +5135,31 @@
                 "黃色星星",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -4750,6 +5247,31 @@
                 "黃色星星",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -4836,6 +5358,31 @@
               "parameters": [
                 "黃色星星",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
@@ -5026,6 +5573,31 @@
                 "紅色圓形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -5054,6 +5626,31 @@
                 "紅色圓形",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
+              ]
             }
           ]
         },
@@ -5081,6 +5678,31 @@
               "parameters": [
                 "紅色圓形",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "錯誤提示",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "錯誤提示"
               ]
             }
           ]
