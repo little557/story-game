@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 269,
+    "build": 272,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1872,6 +1872,7 @@
           "variables": [
             {
               "name": "step1",
+              "persistentUuid": "e153ef33-448a-4a6a-aa31-d2c185a6a2e3",
               "type": "number",
               "value": 1
             }
@@ -3412,14 +3413,35 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "",
-                "糖果背景音樂.aac",
-                "yes",
-                "30",
-                ""
+                "感應1",
+                "step1",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "感應2",
+                "step2",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "感應3",
+                "step3",
+                "=",
+                "1"
               ]
             }
           ]
@@ -3482,6 +3504,18 @@
               "parameters": [
                 "",
                 "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "糖果背景音樂.aac",
+                "yes",
+                "30",
+                ""
               ]
             }
           ]
@@ -3925,6 +3959,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "感應1",
+                "step1",
+                "=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -3973,18 +4018,20 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "感應1",
+                "step1",
+                "!=",
+                "1"
+              ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "黃色圓形",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "Show"
@@ -4004,6 +4051,15 @@
                 "",
                 "100",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "黃色圓形",
+                ""
               ]
             },
             {
@@ -5401,6 +5457,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "感應2",
+                "step2",
+                "=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -5524,6 +5591,17 @@
                 "",
                 "",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "感應3",
+                "step3",
+                "=",
+                "1"
               ]
             }
           ],
