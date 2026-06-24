@@ -759,6 +759,26 @@
         "name": "螢幕擷取畫面_2026-06-12_145117-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "糖果背景音樂.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "糖果背景音樂.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "錯誤音效.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "錯誤音效.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3389,6 +3409,18 @@
               "parameters": [
                 "錯誤提示"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "糖果背景音樂.aac",
+                "yes",
+                "30",
+                ""
+              ]
             }
           ]
         },
@@ -3630,6 +3662,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -3679,6 +3723,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -3743,6 +3799,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -3928,6 +3996,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -3981,6 +4061,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4030,6 +4122,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -4167,6 +4271,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4216,6 +4332,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -4290,7 +4418,7 @@
                 "",
                 "答對效果音.aac",
                 "",
-                "100",
+                "80",
                 "1"
               ]
             },
@@ -4366,6 +4494,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -4590,7 +4730,7 @@
                 "",
                 "答對效果音.aac",
                 "",
-                "100",
+                "80",
                 "1"
               ]
             },
@@ -4670,6 +4810,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4734,6 +4886,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4783,6 +4947,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -4914,6 +5090,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4967,6 +5155,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -5016,6 +5216,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -5147,6 +5359,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -5259,6 +5483,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -5367,6 +5603,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
@@ -5505,7 +5753,7 @@
                 "",
                 "答對效果音.aac",
                 "",
-                "100",
+                "80",
                 "1"
               ]
             },
@@ -5585,6 +5833,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -5638,6 +5898,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -5687,6 +5959,18 @@
               "parameters": [
                 "錯誤提示",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "錯誤音效.aac",
+                "",
+                "100",
+                "1"
               ]
             },
             {
