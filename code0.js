@@ -71,7 +71,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959524859_95
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959524859_95959524515Objects1Objects = Hashtable.newFrom({"紅色愛心": gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback9683748 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10814132 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -81,7 +81,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9683748, gdjs.goCode.asyncCallback9683748);
+gdjs.goCode.idToCallbackMap.set(10814132, gdjs.goCode.asyncCallback10814132);
 gdjs.goCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -92,7 +92,7 @@ gdjs.goCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9683748(runtimeScene, asyncObjectsList)), 9683748, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10814132(runtimeScene, asyncObjectsList)), 10814132, asyncObjectsList);
 }
 }
 
@@ -101,7 +101,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959524859_95959524515Objects1Objects = Hashtable.newFrom({"紅色愛心": gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback8399956 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10815692 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -111,7 +111,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(8399956, gdjs.goCode.asyncCallback8399956);
+gdjs.goCode.idToCallbackMap.set(10815692, gdjs.goCode.asyncCallback10815692);
 gdjs.goCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -122,7 +122,7 @@ gdjs.goCode.eventsList1 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback8399956(runtimeScene, asyncObjectsList)), 8399956, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10815692(runtimeScene, asyncObjectsList)), 10815692, asyncObjectsList);
 }
 }
 
@@ -131,7 +131,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959524859_95959524515Objects1Objects = Hashtable.newFrom({"紅色愛心": gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback10285340 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10817516 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -141,7 +141,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10285340, gdjs.goCode.asyncCallback10285340);
+gdjs.goCode.idToCallbackMap.set(10817516, gdjs.goCode.asyncCallback10817516);
 gdjs.goCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -152,7 +152,7 @@ gdjs.goCode.eventsList2 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10285340(runtimeScene, asyncObjectsList)), 10285340, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10817516(runtimeScene, asyncObjectsList)), 10817516, asyncObjectsList);
 }
 }
 
@@ -164,7 +164,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959522291_95
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"黃色圓形": gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback8432340 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10823140 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -174,7 +174,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(8432340, gdjs.goCode.asyncCallback8432340);
+gdjs.goCode.idToCallbackMap.set(10823140, gdjs.goCode.asyncCallback10823140);
 gdjs.goCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -185,7 +185,7 @@ gdjs.goCode.eventsList3 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback8432340(runtimeScene, asyncObjectsList)), 8432340, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10823140(runtimeScene, asyncObjectsList)), 10823140, asyncObjectsList);
 }
 }
 
@@ -194,7 +194,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"黃色圓形": gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback10581220 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10824996 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -204,7 +204,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10581220, gdjs.goCode.asyncCallback10581220);
+gdjs.goCode.idToCallbackMap.set(10824996, gdjs.goCode.asyncCallback10824996);
 gdjs.goCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -215,7 +215,7 @@ gdjs.goCode.eventsList4 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10581220(runtimeScene, asyncObjectsList)), 10581220, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10824996(runtimeScene, asyncObjectsList)), 10824996, asyncObjectsList);
 }
 }
 
@@ -224,7 +224,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"黃色圓形": gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback9543276 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10826636 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -234,7 +234,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9543276, gdjs.goCode.asyncCallback9543276);
+gdjs.goCode.idToCallbackMap.set(10826636, gdjs.goCode.asyncCallback10826636);
 gdjs.goCode.eventsList5 = function(runtimeScene) {
 
 {
@@ -245,7 +245,7 @@ gdjs.goCode.eventsList5 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9543276(runtimeScene, asyncObjectsList)), 9543276, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10826636(runtimeScene, asyncObjectsList)), 10826636, asyncObjectsList);
 }
 }
 
@@ -255,7 +255,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"綠色圓形": gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"綠色圓形": gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback9729164 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10830972 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -265,7 +265,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9729164, gdjs.goCode.asyncCallback9729164);
+gdjs.goCode.idToCallbackMap.set(10830972, gdjs.goCode.asyncCallback10830972);
 gdjs.goCode.eventsList6 = function(runtimeScene) {
 
 {
@@ -276,7 +276,7 @@ gdjs.goCode.eventsList6 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9729164(runtimeScene, asyncObjectsList)), 9729164, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10830972(runtimeScene, asyncObjectsList)), 10830972, asyncObjectsList);
 }
 }
 
@@ -285,7 +285,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"綠色圓形": gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback9548844 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10832732 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -295,7 +295,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9548844, gdjs.goCode.asyncCallback9548844);
+gdjs.goCode.idToCallbackMap.set(10832732, gdjs.goCode.asyncCallback10832732);
 gdjs.goCode.eventsList7 = function(runtimeScene) {
 
 {
@@ -306,7 +306,7 @@ gdjs.goCode.eventsList7 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9548844(runtimeScene, asyncObjectsList)), 9548844, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10832732(runtimeScene, asyncObjectsList)), 10832732, asyncObjectsList);
 }
 }
 
@@ -315,7 +315,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"綠色圓形": gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback9520084 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10834972 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("打勾3"), gdjs.goCode.GD_9525171_95212463Objects2);
 gdjs.copyArray(runtimeScene.getObjects("罐3_完成"), gdjs.goCode.GD_95325923_9595_9523436_9525104Objects2);
@@ -329,7 +329,7 @@ gdjs.copyArray(runtimeScene.getObjects("罐3_完成"), gdjs.goCode.GD_95325923_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9520084, gdjs.goCode.asyncCallback9520084);
+gdjs.goCode.idToCallbackMap.set(10834972, gdjs.goCode.asyncCallback10834972);
 gdjs.goCode.eventsList8 = function(runtimeScene) {
 
 {
@@ -339,7 +339,7 @@ gdjs.goCode.eventsList8 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback9520084(runtimeScene, asyncObjectsList)), 9520084, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback10834972(runtimeScene, asyncObjectsList)), 10834972, asyncObjectsList);
 }
 }
 
@@ -348,7 +348,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"綠色圓形": gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback12459300 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10837108 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -358,7 +358,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(12459300, gdjs.goCode.asyncCallback12459300);
+gdjs.goCode.idToCallbackMap.set(10837108, gdjs.goCode.asyncCallback10837108);
 gdjs.goCode.eventsList9 = function(runtimeScene) {
 
 {
@@ -369,7 +369,7 @@ gdjs.goCode.eventsList9 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback12459300(runtimeScene, asyncObjectsList)), 12459300, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10837108(runtimeScene, asyncObjectsList)), 10837108, asyncObjectsList);
 }
 }
 
@@ -381,7 +381,7 @@ gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"藍色圓形": gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback9611716 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10843116 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("打勾2"), gdjs.goCode.GD_9525171_95212462Objects2);
 gdjs.copyArray(runtimeScene.getObjects("罐2_完成"), gdjs.goCode.GD_95325922_9595_9523436_9525104Objects2);
@@ -395,7 +395,7 @@ gdjs.copyArray(runtimeScene.getObjects("罐2_完成"), gdjs.goCode.GD_95325922_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9611716, gdjs.goCode.asyncCallback9611716);
+gdjs.goCode.idToCallbackMap.set(10843116, gdjs.goCode.asyncCallback10843116);
 gdjs.goCode.eventsList10 = function(runtimeScene) {
 
 {
@@ -405,7 +405,7 @@ gdjs.goCode.eventsList10 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback9611716(runtimeScene, asyncObjectsList)), 9611716, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback10843116(runtimeScene, asyncObjectsList)), 10843116, asyncObjectsList);
 }
 }
 
@@ -414,7 +414,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"藍色圓形": gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback10176820 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10844852 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -424,7 +424,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10176820, gdjs.goCode.asyncCallback10176820);
+gdjs.goCode.idToCallbackMap.set(10844852, gdjs.goCode.asyncCallback10844852);
 gdjs.goCode.eventsList11 = function(runtimeScene) {
 
 {
@@ -435,7 +435,7 @@ gdjs.goCode.eventsList11 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10176820(runtimeScene, asyncObjectsList)), 10176820, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10844852(runtimeScene, asyncObjectsList)), 10844852, asyncObjectsList);
 }
 }
 
@@ -444,7 +444,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"藍色圓形": gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback9461676 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10846636 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -454,7 +454,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9461676, gdjs.goCode.asyncCallback9461676);
+gdjs.goCode.idToCallbackMap.set(10846636, gdjs.goCode.asyncCallback10846636);
 gdjs.goCode.eventsList12 = function(runtimeScene) {
 
 {
@@ -465,7 +465,7 @@ gdjs.goCode.eventsList12 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9461676(runtimeScene, asyncObjectsList)), 9461676, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10846636(runtimeScene, asyncObjectsList)), 10846636, asyncObjectsList);
 }
 }
 
@@ -474,7 +474,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959534253_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"藍色圓形": gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback11200980 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10837932 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -484,7 +484,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(11200980, gdjs.goCode.asyncCallback11200980);
+gdjs.goCode.idToCallbackMap.set(10837932, gdjs.goCode.asyncCallback10837932);
 gdjs.goCode.eventsList13 = function(runtimeScene) {
 
 {
@@ -495,7 +495,7 @@ gdjs.goCode.eventsList13 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback11200980(runtimeScene, asyncObjectsList)), 11200980, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10837932(runtimeScene, asyncObjectsList)), 10837932, asyncObjectsList);
 }
 }
 
@@ -505,7 +505,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959519977_95959535282_95959524418Objects1Objects = Hashtable.newFrom({"綠色三角形": gdjs.goCode.GD_9532160_9533394_9519977_9535282_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959519977_95959535282_95959524418Objects1Objects = Hashtable.newFrom({"綠色三角形": gdjs.goCode.GD_9532160_9533394_9519977_9535282_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback10583972 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10823900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -515,7 +515,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10583972, gdjs.goCode.asyncCallback10583972);
+gdjs.goCode.idToCallbackMap.set(10823900, gdjs.goCode.asyncCallback10823900);
 gdjs.goCode.eventsList14 = function(runtimeScene) {
 
 {
@@ -526,7 +526,7 @@ gdjs.goCode.eventsList14 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10583972(runtimeScene, asyncObjectsList)), 10583972, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10823900(runtimeScene, asyncObjectsList)), 10823900, asyncObjectsList);
 }
 }
 
@@ -535,7 +535,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959519977_95959535282_95959524418Objects1Objects = Hashtable.newFrom({"綠色三角形": gdjs.goCode.GD_9532160_9533394_9519977_9535282_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback9488196 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10816340 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -545,7 +545,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9488196, gdjs.goCode.asyncCallback9488196);
+gdjs.goCode.idToCallbackMap.set(10816340, gdjs.goCode.asyncCallback10816340);
 gdjs.goCode.eventsList15 = function(runtimeScene) {
 
 {
@@ -556,7 +556,7 @@ gdjs.goCode.eventsList15 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9488196(runtimeScene, asyncObjectsList)), 9488196, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10816340(runtimeScene, asyncObjectsList)), 10816340, asyncObjectsList);
 }
 }
 
@@ -565,7 +565,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532160_95959533394_95959519977_95959535282_95959524418Objects1Objects = Hashtable.newFrom({"綠色三角形": gdjs.goCode.GD_9532160_9533394_9519977_9535282_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback11209116 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10792500 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -575,7 +575,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(11209116, gdjs.goCode.asyncCallback11209116);
+gdjs.goCode.idToCallbackMap.set(10792500, gdjs.goCode.asyncCallback10792500);
 gdjs.goCode.eventsList16 = function(runtimeScene) {
 
 {
@@ -586,7 +586,7 @@ gdjs.goCode.eventsList16 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback11209116(runtimeScene, asyncObjectsList)), 11209116, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10792500(runtimeScene, asyncObjectsList)), 10792500, asyncObjectsList);
 }
 }
 
@@ -596,7 +596,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959526143_95959526143Objects1Objects = Hashtable.newFrom({"黃色星星": gdjs.goCode.GD_9540643_9533394_9526143_9526143Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959526143_95959526143Objects1Objects = Hashtable.newFrom({"黃色星星": gdjs.goCode.GD_9540643_9533394_9526143_9526143Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback9403644 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10848804 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -606,7 +606,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9403644, gdjs.goCode.asyncCallback9403644);
+gdjs.goCode.idToCallbackMap.set(10848804, gdjs.goCode.asyncCallback10848804);
 gdjs.goCode.eventsList17 = function(runtimeScene) {
 
 {
@@ -617,7 +617,7 @@ gdjs.goCode.eventsList17 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9403644(runtimeScene, asyncObjectsList)), 9403644, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10848804(runtimeScene, asyncObjectsList)), 10848804, asyncObjectsList);
 }
 }
 
@@ -628,7 +628,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959526143_95959526143Objects1Objects = Hashtable.newFrom({"黃色星星": gdjs.goCode.GD_9540643_9533394_9526143_9526143Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback9403916 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10852404 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -638,7 +638,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9403916, gdjs.goCode.asyncCallback9403916);
+gdjs.goCode.idToCallbackMap.set(10852404, gdjs.goCode.asyncCallback10852404);
 gdjs.goCode.eventsList18 = function(runtimeScene) {
 
 {
@@ -649,7 +649,7 @@ gdjs.goCode.eventsList18 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9403916(runtimeScene, asyncObjectsList)), 9403916, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10852404(runtimeScene, asyncObjectsList)), 10852404, asyncObjectsList);
 }
 }
 
@@ -660,7 +660,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959540643_95959533394_95959526143_95959526143Objects1Objects = Hashtable.newFrom({"黃色星星": gdjs.goCode.GD_9540643_9533394_9526143_9526143Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback10196236 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10855332 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -670,7 +670,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10196236, gdjs.goCode.asyncCallback10196236);
+gdjs.goCode.idToCallbackMap.set(10855332, gdjs.goCode.asyncCallback10855332);
 gdjs.goCode.eventsList19 = function(runtimeScene) {
 
 {
@@ -681,7 +681,7 @@ gdjs.goCode.eventsList19 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10196236(runtimeScene, asyncObjectsList)), 10196236, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10855332(runtimeScene, asyncObjectsList)), 10855332, asyncObjectsList);
 }
 }
 
@@ -691,7 +691,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback9439076 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10858636 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("打勾"), gdjs.goCode.GD_9525171_9521246Objects2);
 gdjs.copyArray(runtimeScene.getObjects("罐1_完成"), gdjs.goCode.GD_95325921_9595_9523436_9525104Objects2);
@@ -705,7 +705,7 @@ gdjs.copyArray(runtimeScene.getObjects("罐1_完成"), gdjs.goCode.GD_95325921_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9439076, gdjs.goCode.asyncCallback9439076);
+gdjs.goCode.idToCallbackMap.set(10858636, gdjs.goCode.asyncCallback10858636);
 gdjs.goCode.eventsList20 = function(runtimeScene) {
 
 {
@@ -715,7 +715,7 @@ gdjs.goCode.eventsList20 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback9439076(runtimeScene, asyncObjectsList)), 9439076, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.goCode.asyncCallback10858636(runtimeScene, asyncObjectsList)), 10858636, asyncObjectsList);
 }
 }
 
@@ -724,7 +724,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250331Objects1Objects = Hashtable.newFrom({"感應1": gdjs.goCode.GD_9524863_95250331Objects1});
-gdjs.goCode.asyncCallback9665228 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10860404 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -734,7 +734,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(9665228, gdjs.goCode.asyncCallback9665228);
+gdjs.goCode.idToCallbackMap.set(10860404, gdjs.goCode.asyncCallback10860404);
 gdjs.goCode.eventsList21 = function(runtimeScene) {
 
 {
@@ -745,7 +745,7 @@ gdjs.goCode.eventsList21 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback9665228(runtimeScene, asyncObjectsList)), 9665228, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10860404(runtimeScene, asyncObjectsList)), 10860404, asyncObjectsList);
 }
 }
 
@@ -754,7 +754,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250332Objects1Objects = Hashtable.newFrom({"感應2": gdjs.goCode.GD_9524863_95250332Objects1});
-gdjs.goCode.asyncCallback10170436 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10861796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -764,7 +764,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10170436, gdjs.goCode.asyncCallback10170436);
+gdjs.goCode.idToCallbackMap.set(10861796, gdjs.goCode.asyncCallback10861796);
 gdjs.goCode.eventsList22 = function(runtimeScene) {
 
 {
@@ -775,7 +775,7 @@ gdjs.goCode.eventsList22 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10170436(runtimeScene, asyncObjectsList)), 10170436, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10861796(runtimeScene, asyncObjectsList)), 10861796, asyncObjectsList);
 }
 }
 
@@ -784,7 +784,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 };gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959532005_95959533394_95959522291_95959524418Objects1Objects = Hashtable.newFrom({"紅色圓形": gdjs.goCode.GD_9532005_9533394_9522291_9524418Objects1});
 gdjs.goCode.mapOfGDgdjs_9546goCode_9546GD_95959524863_959595250333Objects1Objects = Hashtable.newFrom({"感應3": gdjs.goCode.GD_9524863_95250333Objects1});
-gdjs.goCode.asyncCallback10005700 = function (runtimeScene, asyncObjectsList) {
+gdjs.goCode.asyncCallback10863188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects2);
 
@@ -794,7 +794,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("錯誤提示"), gdjs.goCode.GD_95376
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(10005700, gdjs.goCode.asyncCallback10005700);
+gdjs.goCode.idToCallbackMap.set(10863188, gdjs.goCode.asyncCallback10863188);
 gdjs.goCode.eventsList23 = function(runtimeScene) {
 
 {
@@ -805,14 +805,14 @@ gdjs.goCode.eventsList23 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
 for (const obj of gdjs.goCode.GD_9537679_9535492_9525552_9531034Objects1) asyncObjectsList.addObject("錯誤提示", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10005700(runtimeScene, asyncObjectsList)), 10005700, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.goCode.asyncCallback10863188(runtimeScene, asyncObjectsList)), 10863188, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.goCode.asyncCallback11793028 = function (runtimeScene, asyncObjectsList) {
+};gdjs.goCode.asyncCallback10864284 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.goCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("結果背景"), gdjs.goCode.GD_9532080_9526524_9532972_9526223Objects2);
 {for(var i = 0, len = gdjs.goCode.GD_9532080_9526524_9532972_9526223Objects2.length ;i < len;++i) {
@@ -821,7 +821,7 @@ gdjs.copyArray(runtimeScene.getObjects("結果背景"), gdjs.goCode.GD_9532080_9
 }
 gdjs.goCode.localVariables.length = 0;
 }
-gdjs.goCode.idToCallbackMap.set(11793028, gdjs.goCode.asyncCallback11793028);
+gdjs.goCode.idToCallbackMap.set(10864284, gdjs.goCode.asyncCallback10864284);
 gdjs.goCode.eventsList24 = function(runtimeScene) {
 
 {
@@ -831,7 +831,7 @@ gdjs.goCode.eventsList24 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.goCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.goCode.asyncCallback11793028(runtimeScene, asyncObjectsList)), 11793028, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.goCode.asyncCallback10864284(runtimeScene, asyncObjectsList)), 10864284, asyncObjectsList);
 }
 }
 
@@ -1007,7 +1007,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects
 gdjs.goCode.GD_9532005_9533394_9524859_9524515Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10232540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10809740);
 }
 }
 if (isConditionTrue_0) {
@@ -1206,7 +1206,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects
 gdjs.goCode.GD_9540643_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10598716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10818228);
 }
 }
 if (isConditionTrue_0) {
@@ -1405,7 +1405,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects
 gdjs.goCode.GD_9532160_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10502948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10827420);
 }
 }
 if (isConditionTrue_0) {
@@ -1604,7 +1604,7 @@ for (var i = 0, k = 0, l = gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects
 gdjs.goCode.GD_9534253_9533394_9522291_9524418Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9943900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10837836);
 }
 }
 if (isConditionTrue_0) {
